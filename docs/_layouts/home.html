@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div>
+    <img src = "{{ '/assets/item.png' | relative_url }}" alt="list item" width="300"/>
+  </div>
+</div>
