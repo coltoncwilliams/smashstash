@@ -2,12 +2,40 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<style type="text/css" media="screen">
+    .text {
+        font-size: 20px;
+        color: #424242;
+    }
 
-  <div>
-    <img src = "{{ '/assets/item.png' | relative_url }}" alt="list item" width="300"/>
-  </div>
+    .container {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+    }
+</style>
+
+<div class="home">
+    <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+            <div class="container">
+            <img  src="{{ '/assets/item.png' | relative_url }}" alt="list item" width="250"/>
+            <p class="text">Securely store your entries</p>
+            </div>
+        </div>
+        <div class="footer-col footer-col-1">
+            <div class="container">
+            <img  src="{{ '/assets/tag.png' | relative_url }}" alt="list item" width="100"/>
+            <p class="text">Create custom tags</p>
+            </div>
+        </div>
+        <div class="footer-col footer-col-1">
+            <div class="container">
+            <img src="{{ '/assets/count.png' | relative_url }}" alt="list item" width="200"/>
+            <p class="text">Track behavior over time</p>
+            </div>
+        </div>
+    </div>
 </div>

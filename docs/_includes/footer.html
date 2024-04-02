@@ -11,12 +11,17 @@
             </li>
             <li><a class="u-email" href="mailto:{{ site.email }}"><span><img src = "{{ '/assets/email.svg' | relative_url }}" alt="email" width="16"/> {{ site.email }}</span></a></li>
             <li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>{{ site.github_username| escape }}</a></li>
-
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-
+        <ul class="contact-list">
+        <li class="p-name">
+          Read
+        </li>
+        <li><a href="{{ '/terms' | relative_url }}">Terms of Use</a></li>
+        <li><a href="{{ '/privacy' | relative_url }}">Privacy Policy</a></li>
+        </ul>
       </div>
 
       <div class="footer-col footer-col-3">
