@@ -13,29 +13,58 @@ layout: default
         align-content: center;
         align-items: center;
         text-align: center;
-        width: 300px;
+        max-width: 400px;
     }
+
+    .description {
+        text-align: center;
+        padding: 50px 10px 10px 10px;
+    }
+
+    .outline {
+        padding: calc(10% - 30px / 2);
+        border: solid 4px #EB99F4;
+        border-radius: 10px;
+        max-width: 500px;
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .col-left {
+    }
+
+    .col-right {
+        float: right;
+    }
+
+
 </style>
 
 <div class="home">
-    <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
+    <div class="footer-col-wrapper outline">
+        <div class="footer-col footer-col-1 col-left">
             <div class="container">
-            <img  src="{{ '/assets/item.png' | relative_url }}" alt="list item" width="250"/>
-            <p class="text">Securely store your entries</p>
+                <img src="{{ '/assets/item.png' | relative_url }}" alt="list item" width="250"/>
+                <p class="text">Securely store your entries</p>
             </div>
         </div>
-        <div class="footer-col footer-col-1">
+        <div class="footer-col footer-col-1 col-right">
             <div class="container">
-            <img  src="{{ '/assets/tag.png' | relative_url }}" alt="list item" width="100"/>
-            <p class="text">Create custom tags</p>
+                <img src="{{ '/assets/tag.png' | relative_url }}" alt="list item" width="100"/>
+                <p class="text">Create custom tags</p>
             </div>
         </div>
-        <div class="footer-col footer-col-1">
+        <div class="footer-col footer-col-1 col-right">
             <div class="container">
-            <img src="{{ '/assets/count.png' | relative_url }}" alt="list item" width="200"/>
-            <p class="text">Track behavior over time</p>
+                <img src="{{ '/assets/count.png' | relative_url }}" alt="list item" width="200"/>
+                <p class="text">Track behavior over time</p>
             </div>
         </div>
+    </div>
+    <div class="description">
+        <p class="text">The - List provides a secure and intuitive way to store your experiences. Securely encrypt
+            your entries and visualize them with graphs and counts. Create your own tags and filter past entries.
+            Upgrade with expansion packs for more data visualization and specificity.</p>
     </div>
 </div>
