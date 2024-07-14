@@ -5,7 +5,7 @@ permalink: /privacy/
 
 ## Privacy Policy
 
-Colton Williams ("we" or "us") operates The List mobile application (the "App"). This page informs you of our policies regarding the collection, use, and disclosure of personal information we receive from users of the App.
+Colton Williams ("we" or "us") operates Smash Stash mobile application (the "App"). This page informs you of our policies regarding the collection, use, and disclosure of personal information we receive from users of the App.
 
 ### Information Collection and Use
 The App does not collect any personal information from users. All data generated or entered by users is stored locally on the device with the option for the user to export it themselves. Purchase and purchase history is collected and used for app functionality and analytics, if the user makes any in-app purchases.

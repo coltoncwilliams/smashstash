@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The - List
-email: thelistapp@icloud.com
+title: Smash Stash
+email: smashstashapp@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
   An app to securely store your experiences. Understand yourself and have piece of mind with your data.
-baseurl: "/thelistapp" # the subpath of your site, e.g. /blog
+baseurl: "/smashstash" # the subpath of your site, e.g. /blog
 url: "https://coltoncwilliams.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  coltoncwilliams
 

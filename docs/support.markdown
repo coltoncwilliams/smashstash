@@ -30,7 +30,7 @@ re-downloaded.
 <br />
 <details>
 <summary>What if I have another question?</summary>
-Please email us at thelistapp@icloud.com.
+Please email us at smashstashapp@icloud.com.
 </details>
 
 [jekyll-organization]: https://github.com/jekyll
