@@ -1,9 +1,10 @@
 ---
 layout: page
 permalink: /terms/
+exclude: true
 ---
 
-## Terms of Use
+<p style="font-size: 40px; text-align: center">Terms of Use</p>
 
 Before you start using our services, we want to make sure you understand and agree to the following terms and conditions. By accessing or using Smash Stash, hereinafter called the "App", you agree to be bound by these terms. If you do not agree with any part of these terms, you may not use our services.
 
@@ -64,4 +65,3 @@ These terms shall be governed by and construed in accordance with the laws of Th
 If you have any questions or concerns about these terms, please contact us at smashstashapp@icloud.com.
 
 By using the App, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
-    

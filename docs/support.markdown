@@ -4,33 +4,57 @@ title: Support
 permalink: /support/
 ---
 
-## FAQs
+<style type="text/css" media="screen">
+    .title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .text {
+        font-size: 20px;
+        color: #424242;
+        text-align: center;
+    }
+    .link-container {
+        border: solid 4px #EB99F4;
+        border-radius: 10px;
+        max-width: 500px;
+        min-height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-self: center;
+        margin: 40px auto 60px;
+        align-content: center;
+    }
+    .link {
+        color: #E494EC;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: underline;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .link-2 {
+        color: #E494EC;
+        text-decoration: underline;
+    }
 
-<details>
-<summary>Where is my data stored?</summary>
-Your data is encrypted and stored locally on your device.
-</details>
-<br />
-<details>
-<summary>What happens if I lose my device?</summary>
-Your data will be lost. Don't worry, it's encrypted, but remember to back it up!
-</details>
-<br />
-<details>
-<summary>Who is this app intended for?</summary>
-This app is intended for adults (18+) to keep track of their personal data. It is not intended for and should not be 
-used by children.
-</details>
-<br />
-<details>
-<summary>How do I erase my data?</summary>
-You must do so in the app settings. If you delete the app without erasing your data, it may persist if the app is
-re-downloaded.
-</details>
-<br />
-<details>
-<summary>What if I have another question?</summary>
-Please email us at smashstashapp@icloud.com.
-</details>
+</style>
+
+<p class="title">Support</p>
+
+<p class="text">If you're experiencing an issue while using Smash Stash, we're here to help! Before contacting us, check out some answers to frequently asked questions:</p>
+
+<div class="link-container">
+<a class="link" href="{{site.baseurl}}/faqs#faq-1">Where is my data stored?</a>
+<a class="link" href="{{site.baseurl}}/faqs#faq-4">How do I erase my data?</a>
+<a class="link" href="{{site.baseurl}}/faqs#faq-5">What's a tracker?</a>
+</div>
+
+<p class="text" style="padding-bottom: 40px">Still need help? Feel free to <a class="link-2" href="#request-form">request support</a> below or<br>contact us at <a class="link-2" href="mailto:smashstashapp@icloud.com">smashstashapp@icloud.com</a>.</p>
+
+<iframe id="request-form" src="https://docs.google.com/forms/d/e/1FAIpQLSelum66-b2EbMks1e6vfRXPwWMPaaUKADp3nB7jzO3Ko5BkqQ/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">
+Loading…</iframe>
+
 
 [jekyll-organization]: https://github.com/jekyll
